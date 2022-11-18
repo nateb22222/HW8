@@ -1,0 +1,184 @@
+
+@font-face {
+    font-family: "Inter";
+    src: url('../fonts/Inter-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url('../fonts/Inter-Bold.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Apple";
+    src: url('../fonts/AppleGaramond.ttf');
+    
+
+}
+
+
+.skip a{
+    position: absolute;
+    top: -40px;
+  }
+  
+
+.skip a:focus {
+    position: absolute;
+    top: 20px;
+  }
+  
+
+
+
+body {
+    font-family: Inter;
+    color: #414141;
+    background-color: #FFFBF0;
+}
+
+
+.intro {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1 {
+    font-family: Apple;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: Apple;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*
+p {
+    margin: 0px 50px 0px 50px;
+}
+*/
+
+nav{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: right;
+  }
+
+
+nav li{
+    display:inline;
+    padding-right:20px;
+  }
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+  
+nav a:focus {
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+
+header{
+    background-color: #BED9A3;
+    text-align: left;
+}
+
+footer{
+    background-color: #BED9A3;
+    padding: 50px;
+    text-align: left;
+}
+
+footer li{
+    display: inline;
+
+}
+
+.gallery {
+    align-content: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-items: center;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.music-gallery {    
+    align-content: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-items: center;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.music-gallery img{
+    width: 100%;
+}
+
+.movie-gallery {    
+    align-content: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-items: center;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.movie-gallery img{
+    width: 100%;
+}
+
+.tv-gallery {    
+    align-content: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-items: center;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.tv-gallery img{
+    width: 100%;
+}
+
+
+/*
+.gallery img {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    border: solid 10px #50C7C7;
+    margin: 10px;
+    width: auto;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.gallery {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+*/
